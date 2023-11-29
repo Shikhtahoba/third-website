@@ -253,6 +253,7 @@ header{
 }
 .advice-image img{
   width:100%;
+
 }
 .advice-1 p{
   margin: 20px 0px;
@@ -284,6 +285,65 @@ header{
     text-align:;
 }
 
+/* five section code start */
+
+#contact-section{
+background-image: linear-gradient(#3958a25e, #4089C7), url("image/istockphoto-886405144-170667a.jpg");
+padding: 100px 0px;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+form{
+    background-color: #00154ec4;
+    max-width: 50%;
+    margin: 0px auto;
+    padding: 50px 60px;
+    border: 5px solid darkolivegreen;
+    border-radius: 10px;
+}
+form h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+}
+form p{
+    color: white;
+    text-align: center;
+    margin: 30px 0px;
+}
+form input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 30px 0px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 3px solid darkolivegreen;
+}
+form input::placeholder{
+    color: darkolivegreen;
+    font-size: 17px;
+    font-weight: bold;
+}
+.buton-1{
+    display: block;
+    margin: 0 auto;
+    padding:5px 40px;
+    background: none;
+    color: white;
+    outline-style: ridge;
+    width: 150px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s;
+}
+.buton-1:hover{
+    background-color: black;
+}
 
 /* main section media query code start */
 
@@ -345,6 +405,18 @@ header{
         margin-top: 50px;
     }
 
+    /* five section code start */
+    
+    form{
+        background-color: #00154ec4;
+        max-width: 90%;
+        
+        padding: 20px 30px;
+        
+        
+    }
+
+
 }
 @media only screen and (min-width: 689px) and (max-width: 1099px) {
 
@@ -403,6 +475,17 @@ header{
     }
     .advice-icon a{
         margin: 10px 5px;
+    }
+
+    /* five section code start */
+
+    form{
+        background-color: #00154ec4;
+        max-width: 90%;
+        
+        padding: 40px 50px;
+        
+        
     }
     
 
