@@ -408,6 +408,49 @@ form input::placeholder{
     list-style-position: inside;
 }
 
+/* footer section code start */
+
+footer{
+    background-color: #154360;
+    padding: 100px 0px 50px 0px;
+}
+
+#footer-1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    gap: 80px;
+}
+.footer-2{
+    width: 100%;
+}
+.footer-2 h5{
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+.footer-3 p{
+    margin: 15px;
+    
+}
+.footer-3 a{
+    text-decoration: none;
+    color: white;
+}
+.footer-4 ul{
+    display: flex;
+}
+.footer-4 ul li{
+    list-style: none;
+}
+.footer-4 ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 6px;
+    background-color: #17202A;
+    padding: 8px;
+    border-radius: 5px;
+}
 
 
 
@@ -510,6 +553,22 @@ form input::placeholder{
     margin-bottom: 70px;
 }
 
+/* footer section code start */
+
+#footer-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;   
+
+}
+.footer-2{
+    
+    text-align: center;
+}
+.footer-4 ul{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -601,6 +660,14 @@ form input::placeholder{
     }
     .seven-2{
         margin-bottom: 80px;
+    }
+
+    /* footer section code start */
+
+    #footer-1{
+    
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
 
